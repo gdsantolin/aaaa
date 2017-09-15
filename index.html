@@ -1,14 +1,40 @@
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <center><h1>O Desastre de Mariana</h1></center>
-  </body>
-  </html> 
- 
+</head>
+<body>
+<div class="container">
+<h1>Formulário para Cadastro</h1>
+<form>
+<div class="form-group">
+<label for="name">Nome:</label>
+	<input type="name" class="form-control" id="name" placeholder="Digite seu nome" name="nome">
+	</div>
+<div class="form-group">
+<label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="pwd">
+    </div>
+	<label for="radio">Sexo:</label>
+	<div class="radio">
+  <label><input type="radio" name="optradio">Masculino</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Feminino</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Outro</label>
+</div>
+<div class="checkbox">
+<label><input type="checkbox">Li e aceito os termos de uso</label><br><br>
+<button type="submit" class="btn btn-success">Enviar</button>
+</form>
+</div>
+</html>
